@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 
 export default function MarkdownEditor() {
   const [text, setText] = useState(
-    `# Heading!\n\nType *Markdown* here.\n\n- Try a list\n- **Bold** text\n\n1. Numbered\n2. Items`
+    `# Heading\n\nType *Markdown* here.\n\n- Try a list\n- **Bold** text\n\n1. Numbered\n2. Items`
   );
 
   const [preview, setPreview] = useState(text);
